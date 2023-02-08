@@ -21,7 +21,7 @@ for root,dirs,files in os.walk(f'./{unmergedDir}'):
                 errors.append(d)
                 continue
             else: 
-                os.system(f'binmerge "./{unmergedDir}/{d}/{d}.cue" ' f'"{d}.cue" ' f'-o "./{mergedDir}/{d}"')
+                os.system(f'binmerge "./{unmergedDir}/{d}/{d}.cue" ' f'"{d}" ' f'-o "./{mergedDir}/{d}"')
                 successfulMerges +=1
 
 print(f'{successfulMerges} files successfully merged')
