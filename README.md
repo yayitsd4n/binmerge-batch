@@ -1,5 +1,5 @@
 # binmerge-batch
-A helper script for windows to batch execute binmerge
+A helper script for windows to batch execute [putnam/binmerge](https://github.com/putnam/binmerge). Tested with redump collections.
 
 ## How to use
 ### This script expects:
